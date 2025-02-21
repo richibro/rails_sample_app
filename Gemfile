@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "rails", "~> 8.0.1"
+gem "bootstrap-sass"
 gem "sassc-rails"
 gem "sprockets-rails"
 gem "propshaft"
