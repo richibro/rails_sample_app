@@ -44,11 +44,12 @@ GEM
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
-    active_storage_validations (0.9.8)
-      activejob (>= 5.2.0)
-      activemodel (>= 5.2.0)
-      activestorage (>= 5.2.0)
-      activesupport (>= 5.2.0)
+    active_storage_validations (2.0.2)
+      activejob (>= 6.1.4)
+      activemodel (>= 6.1.4)
+      activestorage (>= 6.1.4)
+      activesupport (>= 6.1.4)
+      marcel (>= 1.0.3)
     activejob (8.0.1)
       activesupport (= 8.0.1)
       globalid (>= 0.3.6)
@@ -412,7 +413,7 @@ GEM
     unicode-display_width (3.1.4)
       unicode-emoji (~> 4.0, >= 4.0.4)
     unicode-emoji (4.0.4)
-    uri (1.0.2)
+    uri (1.0.3)
     useragent (0.16.11)
     web-console (4.2.1)
       actionview (>= 6.0.0)
@@ -446,7 +447,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  active_storage_validations (= 0.9.8)
+  active_storage_validations (= 2.0.2)
   bcrypt
   bootsnap
   bootstrap-will_paginate (= 1.0.0)
