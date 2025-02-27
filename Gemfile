@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 
 gem "rails", "~> 8.0.1"
+gem "image_processing", "1.12.2"
+gem "active_storage_validations", "0.9.8"
 gem "bcrypt"
 gem "faker"
 gem "will_paginate", "3.3.1"
